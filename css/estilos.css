@@ -1,20 +1,72 @@
+/*titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*formulario*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,300&display=swap');
 
 html{
     margin: 1.5rem;
+    background-image: url(../img/Mesa\ de\ trabajo\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 /*Header*/
 
 header div h1,h2,h3{
     
     text-align: center;
-    font-size: 30px;
-   
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    
 }
+
 
 section{
     border: 2px solid black;
     padding: 20px;
-    box-shadow: 5px 10px gray;
+    box-shadow: 8px -10px 15px #d84a86;
     border-radius: 10px;
     margin-bottom: 2rem;
+    font-family: 'Fira Sans Condensed', sans-serif;
+
 }
+section h4,input {
+    font-size: 24px;
+    
+
+}
+
+input[type=radio] {
+    
+    width: 3%;
+    height: 1em;
+    box-shadow: 0px 0px 15px cyan;
+    
+}
+
+
+.conbtn{
+ text-align: center;
+ margin-top: 3rem;
+ margin-bottom: 3rem;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 20px;
+    color: #be215a;
+    background-color:#97e0e6;
+    border-radius: 18px;
+    border: 2px solid cornflowerblue;
+    box-shadow: 0px -6px 18px #d84a86;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Fugaz One', cursive;
+  }
+  .btn:hover{
+    color: #ffffff;
+    background-color: #a86d05;
+  }
+
+  
