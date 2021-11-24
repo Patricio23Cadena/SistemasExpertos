@@ -1,0 +1,12 @@
+
+html{
+    margin: 1.5rem;
+}
+/*Header*/
+
+header div h1,h2,h3{
+    
+    text-align: center;
+    font-size: 30px;
+   
+}
